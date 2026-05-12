@@ -1,8 +1,6 @@
-```yaml id="q8x4zp"
 services:
   - type: web
     name: hostel-complaint-system
     env: python
     buildCommand: "pip install -r requirements.txt"
     startCommand: "gunicorn app:app"
-```
